@@ -9,3 +9,8 @@ git clone https://github.com/tzembo/americas-attic
 python object_track.py
 ```
 Then, launch Attic.pde in the Processing IDE.
+
+## Dependencies
+
+* Numpy
+* OpenCV
