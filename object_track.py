@@ -6,9 +6,6 @@ import numpy as np
 import cv2
 import argparse
 import socket
-import imutils
-from imutils import contours
-from skimage import measure
 
 # Socket info
 TCP_IP = '127.0.0.1'
