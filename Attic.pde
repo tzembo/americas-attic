@@ -157,7 +157,6 @@ class Object {
     textAlpha = constrain(textAlpha, 0, 255);
     stroke(0, 0);
     fill(255, textAlpha);
-    // println(info, textX, textY, textW, 200);
     if (textX != 0) {
       text(info, textX, textY, textW, 200); 
     }
@@ -182,9 +181,7 @@ void setup() {
   text("Loading...", width/2, height/2, 200, 200);
   rectMode(CORNER);
   c = new Client(this, "127.0.0.1", 5005); // Replace with your server’s IP and port
-  
-  println(width, height);
-  
+    
   inactivity = new Stopwatch(this);
   inactivity.start();
   
